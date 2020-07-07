@@ -1,0 +1,19 @@
+
+.button {
+  background: #F0F0F5;
+  padding: 20px;
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -4px -4px 15px #FEFEFF, 4px 4px 15px #C8C8DC;
+  border-radius: 10px;
+  transition: 0.6s ease-in-out;
+
+  &:hover {
+    border-radius: 50px;
+    stroke: #8C8CC8;
+  }
+}
